@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        /*DigitalPayment angelBRI = new BRImo("Angel",5000000,"250071190490");
+        DigitalPayment angelBRI = new BRImo("Angel",5000000,"250071190490");
         DigitalPayment felixBNI = new BNImo("Felix",2500000,"250071190494");
         DigitalPayment joyceBRI = new BRImo("Joyce",1500000,"250071190495");
         DigitalPayment oliveDana = new Dana("Olive",0,"081234567891");
@@ -40,9 +40,8 @@ public class App
         printSaldo(joyceBRI);
         printSaldo(oliveDana);
         printSaldo(adrianOvo);
-        printSaldo(nolaDana);*/
+        printSaldo(nolaDana);
     }
-    /*
     public static void printSaldo(DigitalPayment dp){
         System.out.println("=====Rincian Saldo=====");
         System.out.println("Nama\t\t: "+dp.getNama());
@@ -52,5 +51,5 @@ public class App
             System.out.println("No. HP\t\t: "+((MobileWallet) dp).getNoHp());
         }
         System.out.println("===> Saldo\t: Rp "+dp.getSaldo());
-    }*/
+    }
 }
